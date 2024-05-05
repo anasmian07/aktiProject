@@ -1,0 +1,41 @@
+.transformStyles{
+    width: 50%;
+    background-color: red;
+    height: 90px;
+    transform: translateY(60%)
+    transform: rotateZ(70%)
+    transform: scaleX(80%)
+}
+.transformStyles:hover{
+width: 80%;
+background-color: orange;
+transition: width;
+transition-duration: 5s;
+transition-timing-function: ease-in-out;
+animation: name duration timing-function delay iteration-count direction fill-mode;
+animation-name: diffstylesanimation;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+
+}
+@keyframes diffstylesanimation {
+    0%{
+        background-color: red;
+        color: black;
+    }
+    25%{
+        background-color: purple;
+        color: green;
+    }
+    100%{
+        background-color: aqua;
+         color: brown;
+        
+    }
+
+    
+}
