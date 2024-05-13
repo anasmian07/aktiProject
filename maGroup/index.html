@@ -1,64 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styleme.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Slides Title</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.0/reveal.min.css"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styleme.css" />
     <script type="module" src="./my.js"></script>
-    
+
     <!--tailwind cdn-->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    
-    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
-      <!-- Compiled and minified CSS -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
- <!-- Compiled and minified JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>          
-    <title>Document</title>
-    
-</head>
-<body class="bgColor">
-   
-    <!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
-  </ul>
-  <nav>
-    <div class="nav-wrapper purple">
-      <a href="#!" class="brand-logo">MA Group</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="./about.html">About</a></li>
-      
-        <li><a href="./contact.html" >Contact</a></li>
-       
-        
-        
-        <!-- Dropdown Trigger -->
-        <li><a class="dropdown-trigger" href="./signup.html" data-target="dropdown1">Click Me<i class="material-icons right">Sign up</i></a></li>
-      </ul>
-    </div>
-  </nav>
-  
-  <p class=" text-lime-500 bg-gradient-to-r from-purple-950 via-red-500 to-rose-700">
-    This web page shows the cars 
-  </p>
-  <p class="transformStyles transformStyles:hover">
-    "Cars are more than just machines; they're a gateway to freedom and exploration. With their sleek designs and powerful engines, they embody the spirit of innovation and adventure. Whether it's cruising down the open road or tackling challenging terrain, cars fuel our passion for exploration and discovery."
-  </p>
-  <div>
-  <img src="https://i.pinimg.com/564x/c6/3d/81/c63d81b8e708d14f12356a69810a008a.jpg" alt="">
-  </div>
-  <div id="add">
-  
-  </div>
-  <div id="age"></div>
-  <div id="sum"></div>
-    
-</body>
-</html>|
 
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body
+    background="https://i.pinimg.com/736x/62/54/10/625410f11e098f8db7f082dcc5bf006b.jpg"
+  >
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
+    <nav>
+      <div class="nav-wrapper purple">
+        <a href="#!" class="brand-logo">MA Group</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="./about.html">About</a></li>
+
+          <li><a href="./contact.html">Contact</a></li>
+
+          <!-- Dropdown Trigger -->
+          <li>
+            <a
+              class="dropdown-trigger"
+              href="./signup.html"
+              data-target="dropdown1"
+              >Click Me<i class="material-icons right">Sign up</i></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <p
+      class="text-lime-500 bg-gradient-to-r from-purple-950 via-red-500 to-rose-700"
+    >
+      This web page shows the cars
+    </p>
+    <p class="transformStyles transformStyles:hover">
+      "Cars are more than just machines; they're a gateway to freedom and
+      exploration. With their sleek designs and powerful engines, they embody
+      the spirit of innovation and adventure. Whether it's cruising down the
+      open road or tackling challenging terrain, cars fuel our passion for
+      exploration and discovery."
+    </p>
+    <div id="add"></div>
+    <div id="age"></div>
+    <div id="sum"></div>
+    <!--slides-->
+
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <img
+            src="https://i.pinimg.com/236x/3e/42/78/3e42780dce9e2c513cd0535165ea3cf9.jpg"
+            alt=""
+          />
+        </section>
+        <section>
+          <img
+            src="https://i.pinimg.com/236x/0e/92/9f/0e929fc2b848406051a1b41084617895.jpg"
+            alt=""
+          />
+        </section>
+        <!-- Add more sections for additional slides -->
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.0/reveal.min.js"></script>
+    <script>
+      // Initialize reveal.js
+      Reveal.initialize();
+    </script>
+  </body>
+</html>
+|
