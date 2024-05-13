@@ -11,8 +11,21 @@ if (age >= 18) {
 } else {
     console.log("You are not yet an adult.");
 }
-const age=document.getElementById("age")
-age.innerHTML='You are not an adult'
+ const goat=document.getElementById("age")
+goat.innerHTML='You are not an adult'
+// Define a variable
+let sum = 0;
+
+// Iterate from 1 to 5 and calculate the sum
+for (let i = 1; i <= 5; i++) {
+    sum += i;
+}
+
+
+console.log("The sum of numbers from 1 to 5 is: " + sum);
+ sum=document.getElementById("sum")
+sum.innerHTML='the sum of numbers from 1 to 5 is:15'
+
 
        
 
