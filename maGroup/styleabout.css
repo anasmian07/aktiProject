@@ -2,7 +2,9 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
   }
-  
+  .textColor{
+    color: white;
+  }
  . html {
     box-sizing: border-box;
   }
