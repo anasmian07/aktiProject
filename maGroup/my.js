@@ -25,6 +25,16 @@ for (let i = 1; i <= 5; i++) {
 console.log("The sum of numbers from 1 to 5 is: " + sum);
  sum=document.getElementById("sum")
 sum.innerHTML='the sum of numbers from 1 to 5 is:15'
+// Define an initial value
+let i = 0;
+
+// Using a while loop with let
+while (i < 5) {
+    console.log(i); // Print the current value of i
+    i++; // Increment i
+}
+i=document.getElementById("i")
+i.innerHTML="0 1 2 3 4"
 
 
        
