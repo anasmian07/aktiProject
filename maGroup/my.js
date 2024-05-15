@@ -35,7 +35,6 @@ while (i < 5) {
 }
 i=document.getElementById("i")
 i.innerHTML="0 1 2 3 4"
+//tailwind
 
-
-       
 
