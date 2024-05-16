@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--tailwind cdn-->
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+     <!--flowbite-->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+     
+    <title>Document</title>
+</head>
+<body>
+ 
+  
+   <!--navbar-->   
+
+<nav class="bg-red border-gray-200 dark:bg-red-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://www.arsenal.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><img src="data:image/jpeg;base64,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" ></span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-600 dark:hover:bg-red-600 dark:focus:ring-blue-800"> #Gunners</button>
+        <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-red-600 md:dark:bg-red-600 dark:border-red-600">
+        <li>
+          <a href="./matches.html" class="block py-2 px-3 md:p-0 text-white bg-red-600 rounded md:bg-red-600 md:text-blue-700 md:dark:text-white" aria-current="page">Matches</a>
+        </li>
+        <li>
+          <a href="./players.html" class="block py-2 px-3 md:p-0 text-white bg-red-600 rounded md:bg-red-600 md:text-blue-700 md:dark:text-white" aria-current="page">
+        Players</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Trophy cabinet</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Kits</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <div>
+    <p class="bg-blue-500 text-center">
+        <b>
+            <em>
+                Welcome to the gunners arena
+            </em>
+        </b>
+    </p>
+  </div>
+  <!--cards-->
+  <div>
+<a href="./manager.html" class="flex flex-col items-center bg-white border border-red-600 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-red-500 dark:border-red-600 dark:bg-white dark:hover:bg-red-500">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="https://i.pinimg.com/564x/1e/3e/67/1e3e67c89acbe21feaf3443904147188.jpg" alt="">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-500">Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal. </h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mikel Arteta has received a prestigious Spanish honour from his homeland by being bestowed with The Royal Order of Isabella the Catholic.</p>
+    </div>
+</a>
+  </div>
+<!--end of card-->
+<!--slides-->
+
+
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+       
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://i.pinimg.com/236x/89/2d/d0/892dd08570463561dd246c2c19fa5199.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://i.pinimg.com/236x/d0/45/d3/d045d30bc76287dd5484600136d2323c.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+       
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+
+</body>
+</html>  
+
+</body>
+</html>  
+    
+
