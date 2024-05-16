@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--tailwind cdn-->
-     <script src="https://cdn.tailwindcss.com"></script>
+    <!--tailwind cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
-     <!--flowbite-->
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-     
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <!--flowbite-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <title>Document</title>
+    
 </head>
 <body>
       <!--navbar-->   
@@ -34,7 +34,7 @@
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
       <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-red-600 md:dark:bg-red-600 dark:border-red-600">
         <li>
-          <a href="#" class="block py-2 px-3 md:p-0 text-white bg-red-600 rounded md:bg-red-600 md:text-blue-700 md:dark:text-white" aria-current="page">Matches</a>
+          <a href="./matches.html" class="block py-2 px-3 md:p-0 text-white bg-red-600 rounded md:bg-red-600 md:text-blue-700 md:dark:text-white" aria-current="page">Matches</a>
         </li>
         <li>
           <a href="./players.html" class="block py-2 px-3 md:p-0 text-white bg-red-600 rounded md:bg-red-600 md:text-blue-700 md:dark:text-white" aria-current="page">
@@ -58,65 +58,23 @@
             </em>
         </b>
     </p>
-  </div> 
-  <!--tables-->
+  </div>
+  <!--flowbite grid-->
   
 
-<div class="relative overflow-x-auto">
-    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-white uppercase bg-gray-50 dark:bg-blue-400 dark:text-white">
-            <tr>
-                <th scope="col" class="px-6 py-3">
-                    Arsenal
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Vs
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Opponent
-                </th>
-                
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="bg-white border-b dark:bg-red-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Arsenal
-                </th>
-                <td class="px-6 py-4">
-                    Vs
-                </td>
-                <td class="px-6 py-4">
-                    West Ham utd
-                </td>
-                
-            </tr>
-            <tr class="bg-white border-b dark:bg-red-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Arsenal
-                </th>
-                <td class="px-6 py-4">
-                    Vs
-                </td>
-                <td class="px-6 py-4">
-                    Man city
-                </td>
-                
-            </tr>
-            <tr class="bg-white dark:bg-red-800">
-                <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
-                Arsenal
-                </th>
-                <td class="px-6 py-4">
-                    Vs
-                </td>
-                <td class="px-6 py-4">
-                    Aston Villa
-                </td>
-                
-            </tr>
-        </tbody>
-    </table>
+<div class="grid grid-cols-2 gap-2">
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://i.pinimg.com/564x/08/d3/7c/08d37cc8eb7009a52929b28b899fb83b.jpg"width="470"  >
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://i.pinimg.com/564x/b4/3e/f4/b43ef40ebbdb2261b16a0058316877a1.jpg" width="440">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://i.pinimg.com/236x/cf/f2/2e/cff22ee233d452369b8fbad9e65e9fdf.jpg" width="440">
+    </div>
+    <div>
+        <img class="h-auto max-w-full rounded-lg" src="https://i.pinimg.com/736x/fd/b0/55/fdb055c1dbf94a6889f60015094a91aa.jpg"width="500">
+    </div>
 </div>
 
 </body>
