@@ -1,0 +1,1 @@
+export let fromAnotherFIle = 1234
