@@ -43,10 +43,23 @@ let arrowSub= (a, b) => {
     console.log(a-b);
 };
 arrowSub(3,4);
+let arrowMul = (a, b) => {
+    console.log(a*b);
+};
+arrowMul(8,7);
 
 
-g
+
 let str='anas mian';
 console.log(str); // Output: "
 let str2='anas mian';
 console.log(str2[0]); // Output: "
+//export function
+export let arrowShift = (a, b) => {
+    console.log(a*b);
+}
+let nums=[2,4,6,8]
+ nums .forEach(nums => {
+    console.log(nums*nums);
+});
+    
