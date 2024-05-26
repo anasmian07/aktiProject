@@ -5,7 +5,7 @@ let firstObject = {
     str : `abc`
 };
 console.log(firstObject);
-// using push pop and shift unshift
+// using push pop 
 let anasMarks = [93,98,95];
 console.log(anasMarks);
 
@@ -15,5 +15,21 @@ console.log(anasMarks);
 let aliMarks = [90,98,95];
 console.log(aliMarks);
 
+
 aliMarks.pop();
 console.log(aliMarks);
+
+
+
+let aliMarks2 = aliMarks.slice();
+console.log(aliMarks2);
+
+aliMarks2.shift();
+console.log(aliMarks2);
+//slice shift
+
+let aliMarks3 = aliMarks.slice();
+console.log(aliMarks3);
+
+aliMarks3.unshift(90);
+console.log(aliMarks3);
