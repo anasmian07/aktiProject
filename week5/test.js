@@ -58,8 +58,15 @@ console.log(str2[0]); // Output: "
 export let arrowShift = (a, b) => {
     console.log(a*b);
 }
+//forEach
 let nums=[2,4,6,8]
  nums .forEach(nums => {
     console.log(nums*nums);
 });
-    
+
+let ansNumbers = [100, 101, 102, 103, 104, 105];
+console.log(ansNumbers);
+let anasBest = [100, 101, 102, 103, 104, 105];
+ console.log(anasBest);
+
+
