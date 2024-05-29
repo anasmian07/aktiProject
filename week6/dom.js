@@ -33,3 +33,6 @@ console.log(aliMarks3);
 
 aliMarks3.unshift(90);
 console.log(aliMarks3);
+// clone
+let secondObject = {...firstObject}
+console.log(secondObject)
