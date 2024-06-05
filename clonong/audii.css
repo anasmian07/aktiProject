@@ -1,0 +1,134 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:black;
+    color: white;
+  }
+  .cards{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  display: flex;
+
+  }
+  .img{
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 40%;
+
+  }
+  .pos{
+    position: absolute;
+    width: 70%;
+    left: 20%;
+  }
+  .anas{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    
+  }
+  .img2{
+    float: left;
+    padding-top: 1000px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 30%;
+  }
+ .saad{
+ 
+  padding-top: 40%;
+ }  .b{
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  .c{
+    padding-left: 150px;
+    padding-right: 90px;
+    font-size: 25px;
+    text-decoration: underline;
+  }.d{
+   padding-left: 150px;
+   padding-right: 70px;
+   font-size: 25px;
+   text-decoration: underline;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   font-size: 25px;
+   text-decoration: underline;
+ }
+ 
+ .e{
+   
+   padding-left: 130px;
+   padding-right: 70px; font-size: 25px;
+   text-decoration: underline;}
+   .f{
+     
+     padding-left: 130px;
+     padding-right: 70px;
+     font-size: 25px;
+     text-decoration:underline;
+   }
+   .g{
+     padding-left: 140px;
+     padding-right: 70px;
+     font-size: 25px;
+     text-decoration: underline;
+   }.h{
+     padding-left: 130px;
+     padding-right: 70px;
+     font-size: 25px;
+     text-decoration: underline;
+   }
+   
+   .fotter{
+    padding-top: 500px;
+    
+  }
+  .size{
+    width: 20%;
+  }
+  .img3{
+    float: right;
+    padding-top: 600px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:30%;
+  }
+  .text2{
+    padding-top: 750px;
+    padding-left: 950px;
+  }
+ 

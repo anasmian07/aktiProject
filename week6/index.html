@@ -4,19 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="module" src="./dom.js"></script>
+<link rel="stylesheet" href="./audi.css">
 <a href="../index.html">LEVEL LEVEL KI BAAT NA KR </a>
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: greenyellow;">
  <h1>
     <b>
-        Level LEVEL KI BAAT NA KR 
+        JALWA HE  HAMARA
     </b>
  </h1> 
- <video width="320" height="240" controls>
-    <source src="../assets/videoplayback.mp4">
-    
-  
-  </video>  
+ 
+  <style>
+    /* Add any custom styling for your image here */
+    img {
+        cursor: pointer;
+    }
+   
+
+    </style>
+</head>
+<body>
+    <img id="myImage" src="https://i.pinimg.com/564x/80/0a/92/800a92d3c5d8e39722e166bc198df94a.jpg" alt="Click me!" onclick="toggleImage()">
+   
 </body>
 </html>
+<script>
+// Initialize a variable to track the current image state
+let isInitialImage = true;
+
+function toggleImage() {
+const image = document.getElementById("myImage");
+
+// Toggle between the initial image and the new image
+if (isInitialImage) {
+    image.src = "https://i.pinimg.com/564x/71/c7/8e/71c78e730e34f4ba2df829a81cf5414c.jpg";
+    isInitialImage = false;
+} else {
+    image.src = "https://i.pinimg.com/564x/80/0a/92/800a92d3c5d8e39722e166bc198df94a.jpg";
+    isInitialImage = true;
+}
+}
+</script>
+
+<button onClick="color()">Black</button>
+<button onClick="white()">white</button>
+
+
+<script> 
+
+function color()
+{
+
+
+document.body.style.background = "black";
+document.querySelectorAll('h1').forEach(e => e.style.color = "white");
+
+document.querySelectorAll('p').forEach(e => e.style.color = "white");
+}
+
+function white()
+{
+
+
+document.body.style.background = "white";
+document.querySelectorAll('h1').forEach(e => e.style.color = "black");
+
+document.querySelectorAll('p').forEach(e => e.style.color = "black");
+
+}
+
+
+    
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+

@@ -36,3 +36,17 @@ console.log(aliMarks3);
 // clone
 let secondObject = {...firstObject}
 console.log(secondObject)
+//WEL 
+
+
+    
+
+
+
+
+
+
+    
+    
+            
+    
