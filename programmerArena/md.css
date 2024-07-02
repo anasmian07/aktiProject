@@ -32,37 +32,5 @@ header {
 }
 
 .links.left {
-    margin-left: 20px;
-}
-
-.links.right {
-    margin-right: 20px;
-}
-
-.intro, .types {
-    padding: 100px 20px 20px;
-    margin-top: 70px; /* Ensure content starts below navbar */
-}
-
-.intro img, .type img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.types {
-    background-color: #1f1f1f;
-    padding-top: 20px;
-}
-
-.type {
-    margin: 20px 0;
-}
-
-.type h3 {
-    margin-top: 0;
-}
-
-footer {
-    text-align: center;
-    padding: 
+    margin-left: 20px
 }

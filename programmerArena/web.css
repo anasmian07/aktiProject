@@ -6,66 +6,87 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #1f1f1f;
-    padding: 10px 20px;
-    position: fixed;
-    width: 100%;
-    z-index: 1000; /* Ensure the navbar stays on top */
-    top: 0; /* Stick the navbar to the top */
+/* Navbar styles */
+nav {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 1rem;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px; /* Adjust navbar height */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
 }
 
-.navbar .logo img {
-    height: 50px; /* Adjust logo height */
+nav a:hover {
+    background-color: #ffffff;
+    color: #121212;
 }
 
-.navbar .links {
-    display: flex;
-    gap: 20px;
+/* Intro section styles */
+.intro {
+    padding: 2rem;
+    text-align: center;
 }
 
-.links.left {
-    margin-left: 20px;
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.links.right {
-    margin-right: 20px;
+.intro p {
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
-.intro, .types {
-    padding: 100px 20px 20px;
-    margin-top: 70px; /* Ensure content starts below navbar */
-}
-
-.intro img, .type img {
-    width: 100%;
+.intro img {
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
+    margin-top: 1.5rem;
 }
 
+/* Types section styles */
 .types {
-    background-color: #1f1f1f;
-    padding-top: 0;
+    background-color: #121212;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.types h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .type {
-    margin: 20px 0;
+    margin-bottom: 2rem;
 }
 
 .type h3 {
-    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
+.type p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.type img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+/* Footer styles */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1f1f1f;
+    background-color: #121212;
     color: #ffffff;
-    margin-top: 20px; /* Add space after content */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
