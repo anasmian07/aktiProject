@@ -9,7 +9,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #1f1f1f;
+    background-color: #cdc6c6;
 }
 
 h1 {
@@ -24,3 +24,4 @@ h1 {
 .intro img, .type img {
     width: 15rem; /* Reduce the width to 60 */
     border-radius: 
+}

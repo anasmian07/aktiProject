@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development Overview</title>
     <link rel="stylesheet" href="./web.css">
+    <script type="module" src="./bg.js"></script>
     <!-- Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <!-- Flowbite -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav class="bg-black border-gray-200 dark:bg-black">
@@ -26,7 +29,7 @@
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-black rounded-lg bg-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-black dark:bg-black md:dark:bg-black dark:border-gray-700">
             <li>
-                <a href="../index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                <a href="./intro.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
             </li>
             <li>
                 <a href="../maGroup/about.html" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
@@ -75,6 +78,8 @@
             <img src="https://img.freepik.com/free-vector/gradient-responsive-website-design-set_23-2149538358.jpg?size=626&ext=jpg&ga=GA1.1.947478224.1719775261&semt=ais_user" alt="Responsive Design" class="mx-auto mt-8 rounded-lg max-w-full md:max-w-3xl">
         </div>
     </section>
+    <button id="toogle"><i class="fa-solid fa-paint-roller"></i><p>Paint</p>
+    </button>
     <footer class="text-center bg-black text-white py-4">
         <p>&copy; 2024 Web Development Overview. All rights reserved.</p>
     </footer>
