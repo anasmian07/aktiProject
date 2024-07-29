@@ -90,3 +90,45 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+/* Base styles (unchanged) */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles (unchanged) */
+nav {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .intro h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+    .intro h2 {
+        font-size: 1.8rem;
+    }
+
+}
+
+/* Large screens (901px and wider) */
+@media screen and (min-width: 901px) {
+    /* Customize styles for larger screens */
+    .intro h2 {
+        font-size: 2rem;
+    }
+    
+}

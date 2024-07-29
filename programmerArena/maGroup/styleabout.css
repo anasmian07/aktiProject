@@ -1,0 +1,44 @@
+.bg{
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.text{
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+.siu{
+  color: white;
+}
+.cr{
+  color: wheat;
+}
+.insta{
+  padding-top: 150px;
+  
+}
+@media (max-width: 768px) {
+    .text {
+        font-size: 30px;
+    }
+    .siu {
+        font-size: 16px;
+    }
+    .image {
+        width: 36; /* Tailwind class for width 9rem */
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 24px;
+    }
+    .siu {
+        font-size: 14px;
+    }
+    .image {
+        width: 24; /* Tailwind class for width 6rem */
+    }
+}

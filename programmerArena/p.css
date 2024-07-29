@@ -25,3 +25,24 @@ h1 {
     width: 15rem; /* Reduce the width to 60 */
     border-radius: 
 }
+/* Base Styles (unchanged) */
+
+/* Mobile First Approach */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 { width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    /* Add more styles for other columns */
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 { width: 8.33%; }
+    .col
+    .col-s-2 { width: 16.66%; }
+}
